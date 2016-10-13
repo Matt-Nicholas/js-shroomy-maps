@@ -1,0 +1,22 @@
+{
+  "name": "javascript_gulp_bower_template",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Andrew Malkin <andymalkin@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tiki84626/google-maps-api-cheers-for-beers",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}
