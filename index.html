@@ -5,15 +5,40 @@
 
     <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
-    
+
     <script src="build/js/vendor.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLXpDuh1Yov3chWohB-oWkepFAWCieNBo&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?"></script>
+
+
     <script type="text/javascript" src="build/js/app.js"></script>
 
   </head>
   <body class="container">
 
     <div id="map"></div>
+
+    <form id="addLocation">
+      <label for="shroom-date">Shroom Date:</label>
+      <input name="shroom-date" id="shroom-date" class="form-control" type="date">
+      <label for="shroom-long">Shroom Longitude</label>
+      <input type="text" name="shroom-long" id="shroom-long" value="-122.764582">
+      <label for="shroom-lat">Shroom Latitude</label>
+      <input type="text" name="shroom-lat" id="shroom-lat" value="45.35">
+      <select name="shroom-type" id="shroom-type">
+        <option value="chanterelles">Chanterelles</option>
+        <option value="lobsters">Lobsters</option>
+        <option value="morels">Morels</option>
+        <option value="boletes">Boletes (Porcinis)</option>
+        <option value="chickens">Chicken of the Woods</option>
+        <option value="oysters">Oysters</option>
+        <option value="amanitas">Fly Amanita</option>
+        <option value="libertycaps">Liberty Caps</option>
+        <option value="sparassis">Sparassis (Cauliflower)</option>
+      </select>
+      <button type="submit" name="button">Submit Shroom</button>
+    </form>
+
+
 
   </body>
 </html>

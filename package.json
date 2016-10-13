@@ -26,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiki84626/google-maps-api-cheers-for-beers.git"
+    "url": "git+https://github.com/Matt-Nicholas/js-shroomy-maps.git"
   },
   "bugs": {
-    "url": "https://github.com/tiki84626/google-maps-api-cheers-for-beers/issues"
+    "url": "https://github.com/Matt-Nicholas/js-shroomy-maps/issues"
   },
-  "homepage": "https://github.com/tiki84626/google-maps-api-cheers-for-beers#readme",
+  "homepage": "https://github.com/Matt-Nicholas/js-shroomy-maps#readme",
   "description": ""
 }
